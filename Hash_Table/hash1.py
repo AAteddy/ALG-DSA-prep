@@ -5,6 +5,7 @@
 # Each letter in magazine can only be used once in ransomNote.
 # Example:
 # Input:  ransomNote = "aa", magazine = "aab"
+# Output:  true
 
 
 def canConstruct(ransomNote, magazine):
