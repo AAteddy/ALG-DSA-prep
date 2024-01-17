@@ -11,13 +11,6 @@
 # Output: [5,4,3,2,1]
 
 
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-
-
-# class llist:
 def reverseList(head):
     prev = None
     current = head

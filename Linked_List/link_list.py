@@ -16,10 +16,12 @@ class LinkedList:
         self.head = None
 
     def insert_at_begining(self, data):
+        """Insert a new node at the beginning of the list."""
         newNode = Node(data, self.head)
         self.head = newNode
 
     def insert_at_end(self, data):
+        """Insert a new node at the end of the list."""
         if not self.head:
             self.head = Node(data, None)
             return
@@ -31,6 +33,7 @@ class LinkedList:
         currNode.nxt = Node(data, None)
 
     def insert(self, data):
+        """Insert a new node to a linked list."""
         if not self.head:
             self.head = Node(data, self.head)
         else:
@@ -40,7 +43,20 @@ class LinkedList:
 
             currNode.nxt = Node(data, None)
 
+    def reverseList(self):
+        """Reverse a linked list in iterative approach"""
+        prev = None
+        current = self.head
+
+        while current:
+            next_node = current.nxt
+            current.nxt = prev
+            prev = current
+            current = next_node
+        self.head = prev
+
     def print(self):
+        """Print all elements in the linked list."""
         if self.head is None:
             print("Linked list is empty")
             return
@@ -65,4 +81,6 @@ if __name__ == "__main__":
     ll.insert(260)
     ll.insert(45)
     ll.insert(7)
+    ll.print()
+    ll.reverseList()
     ll.print()
