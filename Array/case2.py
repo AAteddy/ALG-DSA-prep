@@ -1,5 +1,8 @@
-# demonstration of the two pointers technique for finding a pair of numbers in a sorted array that add up to a specific target.
-# Two Pointers in a Single Array: Often used in problems involving a sorted array where you need to find a pair of elements that meet certain criteria. The pointers typically start at opposite ends of the array and move towards each other.
+# demonstration of the two pointers technique for finding a pair
+# of numbers in a sorted array that add up to a specific target.
+# Two Pointers in a Single Array: Often used in problems involving a sorted array
+# where you need to find a pair of elements that meet certain criteria.
+# The pointers typically start at opposite ends of the array and move towards each other.
 # This technique can simplify the logic and reduce the time complexity of certain problems.
 # Problem: find a pair of numbers in a sorted array that add up to a specific target
 
