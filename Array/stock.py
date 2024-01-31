@@ -7,6 +7,8 @@
 # Input: [7, 1, 5, 3, 6, 4]
 # Output: 5 Explanation: Buy on day 2 (price = 1)
 
+# Implementation technique- Two pointers and Sliding window
+
 
 def maxProfit(prices):
     # left is for buy
